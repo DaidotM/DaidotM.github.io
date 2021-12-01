@@ -1,0 +1,48 @@
+#my-works{
+    margin: 10px;
+}
+
+.images{
+    width: 200px;
+    margin-right: 10px;
+}
+
+#list-patient{
+    width: 300px;
+}
+
+.list-works{
+    text-decoration: none;
+}
+
+.list-works li{
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+}
+
+.first{
+    padding-bottom: 20px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.second{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.third{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.description{
+    text-align: justify;
+}

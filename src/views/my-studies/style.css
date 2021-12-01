@@ -1,0 +1,12 @@
+.project{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 300px;
+}
+
+.content a {
+    color: rgb(255, 174, 0);
+}

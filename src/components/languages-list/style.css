@@ -1,0 +1,17 @@
+#languageslist{
+    width: 80%;
+    padding-left: 10px;
+}
+
+.list{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.list li{
+    width: 50%;
+}
+
+.list li ul{
+    padding: 8px;
+}

@@ -1,0 +1,9 @@
+nav#header{
+    height: 50px;
+    background-color: rgb(5, 113, 214);
+    font-size: 26px;
+}
+
+#name{
+    color: white;
+}

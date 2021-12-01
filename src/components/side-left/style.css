@@ -1,0 +1,32 @@
+aside#side{
+    background-color: #f7f7f7;
+    height: auto;
+    padding-top: 12px;
+    padding-right: 0;
+    font-weight: 600;
+    min-height: 100vh;
+}
+
+.content-side{
+    display: flex;
+}
+
+.content-side > p{
+    margin-left: 20px;
+    padding-top: 5px;
+    height: 40px;
+}
+
+.content-side:hover{
+    background-color: rgb(196, 196, 196);
+    transition: 0.3s;
+}
+
+.links{
+    color: rgb(5, 110, 196);
+    text-decoration: none;
+}
+
+.links:hover{
+    color: whitesmoke;
+}
