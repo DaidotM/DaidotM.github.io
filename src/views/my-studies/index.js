@@ -1,6 +1,5 @@
 import React from "react";
 
-import Button from '../../components/button';
 import './style.css';
 
 const Studies = () => (
@@ -24,10 +23,6 @@ const Studies = () => (
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div>
-            <Button />
         </div>
     </div>
 )

@@ -5,7 +5,6 @@ import './style.css';
 import portal1 from '../../images/portal1.jpg';
 import portal2 from '../../images/portal2.jpg';
 import portal3 from '../../images/portal3.jpg';
-import Button from '../../components/button';
 import viewer from '../../images/viewer.jpg';
 
 export default class MyWorks extends Component {
@@ -37,10 +36,6 @@ export default class MyWorks extends Component {
                         <p>Estilização e atualização de visualizador de imagens médicas.</p>
                         <p><em>BCN Medical Systems</em></p>
                     </div>
-                </div>
-
-                <div>
-                    <Button />
                 </div>
             </div>
         )

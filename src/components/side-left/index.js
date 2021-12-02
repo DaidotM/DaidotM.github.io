@@ -2,7 +2,7 @@ import React from "react";
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faCodeBranch, faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faCodeBranch, faAddressCard, faHome } from '@fortawesome/free-solid-svg-icons';
 
 // import  Router  from "../../routes";
 import { Link } from "react-router-dom";
@@ -10,6 +10,15 @@ import { Link } from "react-router-dom";
 const SideLeft = () => (
     <aside className="column is-2" id="side">
         
+            <Link className="links" to={`/`}>
+                <div className="content-side">
+                    <p>
+                        <FontAwesomeIcon icon={faHome} />
+                        &nbsp;
+                        Home
+                    </p>
+                </div>
+            </Link>
             <a className="links" href="https://www.linkedin.com/in/daiane-marques-ba64b3b5/">
                 <div className="content-side">
                     <p>
@@ -55,8 +64,6 @@ const SideLeft = () => (
                     </p>
                 </div>
             </Link>
-            
-        
     </aside>
 );
 
