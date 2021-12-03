@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="columns">
+      <div className="columns adjustmobile">
         <BrowserRouter>
           <SideLeft />
           <Router />

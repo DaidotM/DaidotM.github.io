@@ -3,7 +3,7 @@ import './style.css';
 import LanguagesList from "../../components/languages-list";
 
 const Home = () => (
-    <div className="column">
+    <div className="column content">
         <h2 className="title" id="welcome">Seja Bem Vindo (a)!</h2>
         <br/>
         <p className="presentation">

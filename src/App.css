@@ -43,3 +43,7 @@
 ::-webkit-scrollbar-track {
   background: rgb(197, 197, 197); 
 }
+
+.adjustmobile{
+  margin-right: 0 !important;
+}

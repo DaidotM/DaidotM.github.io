@@ -30,3 +30,11 @@ aside#side{
 .links:hover{
     color: whitesmoke;
 }
+
+@media screen and (max-width: 600px) {
+    aside#side{
+        min-height: auto;
+        overflow-x: hidden;
+        width: 100%;
+    }
+}
