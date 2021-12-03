@@ -7,106 +7,50 @@ export default class LanguagesList extends Component {
     render() {
         return (
             <div id="languageslist">
-                <ul className="list">
-                    <h4 className="title">Inglês</h4>
-                    <ul>
-                        <li> <progress className="progress is-success is-small bar" value="70" max="100"></progress></li>
-                        <li>Meu inglês é intermediário. Não tive muitas experiências de conversasão.</li>
-                    </ul>
-                </ul>
-                <ul className="list">
-                    <h4 className="title">Linguagens</h4>
-                    <li>
-                        HTML5
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="90" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        CSS3
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="90" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        JavaScript
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="100" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        PHP
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="90" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        SQL
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="80" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        MySQL
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="60" max="100"></progress></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul className="list">
-                    <h4 className="title">Bibliotecas / Frameworks</h4>
-                    <li>
-                        Bootstrap
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="90" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        JQuery
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="100" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        React.js
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="20" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        Vue.js
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="0" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        Bulma
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="20" max="100"></progress></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul className="list">
-                    <h4 className="title">Outros</h4>
-                    <li>
-                        AWS
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="70" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        Photoshop
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="80" max="100"></progress></li>
-                        </ul>
-                    </li>
-                    <li>
-                        CorelDraw
-                        <ul>
-                            <li> <progress className="progress is-success is-small bar" value="85" max="100"></progress></li>
-                        </ul>
-                    </li>
-                </ul>
+                <div className="block">
+                    <h4 className="title title-lang">Inglês</h4>
+                    <progress className="progress is-success is-small bar" value="70" max="100"></progress>
+                    <p><em>Meu inglês é intermediário. Não tive muitas experiências de conversasão.</em></p>
+
+                    <h4 className="title title-lang">Linguagens</h4>
+
+                    <p>HTML5</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
+
+                    <p>CSS3</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
+
+                    <p>JavaScript</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
+
+
+                    <p>PHP</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
+
+                    <p>SQL</p><progress className="progress is-success is-small bar" value="80" max="100"></progress>
+
+                    <p>MySQL</p><progress className="progress is-success is-small bar" value="60" max="100"></progress>
+                </div>
+                <div className="block">
+                    <h4 className="title title-lang">Bibliotecas / Frameworks</h4>
+                    <p>Bootstrap</p><progress className="progress is-success is-small bar" value="80" max="100"></progress>
+
+                    <p>JQuery</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
+
+                    <p>React.js</p><progress className="progress is-success is-small bar" value="30" max="100"></progress>
+
+                    <p>Vue.js</p><progress className="progress is-success is-small bar" value="10" max="100"></progress>
+
+                    <p>Bulma</p><progress className="progress is-success is-small bar" value="20" max="100"></progress>
+
+                    <p>Hammer.js</p><progress className="progress is-success is-small bar" value="50" max="100"></progress>
+
+                    <h4 className="title title-lang">Outros</h4>
+
+                    <p>GIT</p><progress className="progress is-success is-small bar" value="60" max="100"></progress>
+
+                    <p>AWS</p><progress className="progress is-success is-small bar" value="70" max="100"></progress>
+
+                    <p>Photoshop</p><progress className="progress is-success is-small bar" value="80" max="100"></progress>
+
+                    <p>CorelDraw</p><progress className="progress is-success is-small bar" value="85" max="100"></progress>
+                </div>
             </div>
         )
     }

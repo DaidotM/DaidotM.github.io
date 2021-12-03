@@ -3,16 +3,11 @@ import './style.css';
 
 const About = () => (
     <div className="column aboutme">
-        <div>
-            <ul className="my-info">
-                <li><strong>Nome: </strong>Daiane Marques</li>
-            </ul>
-            <ul>
-                <li><strong>Nascimento: </strong>10/05/1992</li>
-            </ul>
-            <ul className="my-info2">
-                <li><strong>Idade </strong>29 anos</li>
-            </ul>
+        <div className="my-info">
+            <div className="block">
+                <p><strong>Nascimento </strong>10/05/1992</p>
+                <p><strong>Idade </strong>29 anos</p>
+            </div>
         </div>
         <div className="columns">
             <div className="column info">

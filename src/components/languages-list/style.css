@@ -1,28 +1,26 @@
 #languageslist{
-    width: 80%;
+    width: 100%;
     padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.list{
-    margin-top: 30px;
-    margin-left: 10px;
+.title-lang{
+    width: 100%;
+    background-color: steelblue;
+    color: white !important;
 }
 
-.list li{
-    width: 50%;
-}
-
-.list li ul{
-    padding: 8px;
-}
-
-.list ul, 
-.list li{
-    list-style-type: none !important;
+.block{
+    width: 100%;
+    padding-right: 10px;
 }
 
 @media screen and (max-width: 600px) {
-    .list li{
+    #languageslist{
+        display: block;
+    }
+    .block{
         width: 100%;
     }
 }

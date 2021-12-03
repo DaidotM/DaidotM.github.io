@@ -2,10 +2,6 @@
     margin-top: 10px;
 }
 
-.my-info2{
-    margin-bottom: 15px;
-}
-
 .info{
     border-right: 1px solid #444;
 }
@@ -18,3 +14,8 @@
     color: #333;
 }
 
+@media screen and (max-width: 600px) {
+    .my-info{
+        padding-left: 20px;
+    }
+}
