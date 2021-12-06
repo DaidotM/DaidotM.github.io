@@ -13,7 +13,6 @@ const About = () => (
             <div className="column info">
                 <div className="card-content">
                     <div className="media">
-
                         <div className="media-content">
                             <p className="title is-4">BCN Medical System</p>
                             <p className="subtitle is-6">Técnica em informática</p>
@@ -31,7 +30,6 @@ const About = () => (
             <div className="column info">
                 <div className="card-content">
                     <div className="media">
-
                         <div className="media-content">
                             <p className="title is-4">Manpower</p>
                             <p className="subtitle is-6">Auxiliar de Processamento de Dados</p>
