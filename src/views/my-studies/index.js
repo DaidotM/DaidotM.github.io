@@ -8,8 +8,8 @@ const Studies = () => (
         <div className="project">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="" />
+                    <figure class="image is-4by4">
+                        <img src="https://raw.githubusercontent.com/DaidotM/react-first-project/master/src/images/printHome.png" alt="" />
                     </figure>
                 </div>
                 <div class="card-content">
@@ -18,8 +18,7 @@ const Studies = () => (
                         <br />
                         Desenvolvi um CRUD simples que visualiza, cadastra e deleta produtos.
                         <br />
-                        {/* Link apenas para não acusar warning */}
-                        <a href="https://github.com/">Link em breve...</a>
+                        <a href="https://github.com/DaidotM/react-first-project">Primeiro Projeto React.js</a>
                     </div>
                 </div>
             </div>
