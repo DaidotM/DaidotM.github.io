@@ -45,7 +45,7 @@ const About = () => (
                 </div>
             </div>
         </div>
-        <hr/>
+        <hr />
         <div className="columns">
             <div className="column info">
                 <h6 className="title">Formação </h6>
@@ -76,6 +76,12 @@ const About = () => (
                 <h6 className="title">Cursos Online</h6>
                 <div className="certificates">
                     <h6 className="title is-4">Digital Innovation One</h6>
+                    <p className="subtitle">Trabalhando com Componentes em React.</p>
+                    <p className="subtitle is-6"><em>Dezembro 2021</em></p>
+                    <br />
+                    <p className="subtitle">Introdução ao React.js</p>
+                    <p className="subtitle is-6"><em>Novembro 2021</em></p>
+                    <br />
                     <p className="subtitle">Projetos Ágeis com SCRUM</p>
                     <p className="subtitle is-6"><em>Abril 2021</em></p>
                     <br />
@@ -85,8 +91,7 @@ const About = () => (
                     <p className="subtitle">Lógica Essencial</p>
                     <p className="subtitle is-6"><em>Abril 2021</em></p>
                     <br />
-                    <p className="subtitle">Introdução ao React.js</p>
-                    <p className="subtitle is-6"><em>Novembro 2021</em></p>
+
                 </div>
             </div>
         </div>
