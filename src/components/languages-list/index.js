@@ -20,7 +20,6 @@ export default class LanguagesList extends Component {
 
                     <p>JavaScript</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
 
-
                     <p>PHP</p><progress className="progress is-success is-small bar" value="90" max="100"></progress>
 
                     <p>SQL</p><progress className="progress is-success is-small bar" value="80" max="100"></progress>
@@ -43,9 +42,9 @@ export default class LanguagesList extends Component {
 
                     <h4 className="title title-lang">Outros</h4>
 
-                    <p>GIT</p><progress className="progress is-success is-small bar" value="60" max="100"></progress>
+                    <p>GIT</p><progress className="progress is-success is-small bar" value="50" max="100"></progress>
 
-                    <p>AWS</p><progress className="progress is-success is-small bar" value="55" max="100"></progress>
+                    <p>AWS</p><progress className="progress is-success is-small bar" value="50" max="100"></progress>
 
                     <p>Linux</p><progress className="progress is-success is-small bar" value="20" max="100"></progress>
 
