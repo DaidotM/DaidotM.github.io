@@ -45,7 +45,9 @@ export default class LanguagesList extends Component {
 
                     <p>GIT</p><progress className="progress is-success is-small bar" value="60" max="100"></progress>
 
-                    <p>AWS</p><progress className="progress is-success is-small bar" value="70" max="100"></progress>
+                    <p>AWS</p><progress className="progress is-success is-small bar" value="55" max="100"></progress>
+
+                    <p>Linux</p><progress className="progress is-success is-small bar" value="20" max="100"></progress>
 
                     <p>Photoshop</p><progress className="progress is-success is-small bar" value="80" max="100"></progress>
 
