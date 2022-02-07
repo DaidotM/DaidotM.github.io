@@ -25,6 +25,8 @@ export default class LanguagesList extends Component {
                     <p>SQL</p><progress className="progress is-success is-small bar" value="80" max="100"></progress>
 
                     <p>MySQL</p><progress className="progress is-success is-small bar" value="60" max="100"></progress>
+
+                    <p>Python</p><progress className="progress is-success is-small bar" value="5" max="100"></progress>
                 </div>
                 <div className="block">
                     <h4 className="title title-lang">Bibliotecas / Frameworks</h4>

@@ -14,16 +14,33 @@ const About = () => (
                 <div className="card-content">
                     <div className="media">
                         <div className="media-content">
+                            <p className="title is-4">ADP Labs Brasil</p>
+                            <p className="subtitle is-6">Desenvolvedor de Software II</p>
+                        </div>
+                    </div>
+
+                    <div className="content">
+                        Suporte de Sistemas.
+                        <br />
+                        <br />
+                        <time><em>Janeiro 2022 - Atual</em></time>
+                    </div>
+                </div>
+            </div>
+            <div className="column info">
+                <div className="card-content">
+                    <div className="media">
+                        <div className="media-content">
                             <p className="title is-4">BCN Medical System</p>
                             <p className="subtitle is-6">Técnica em informática</p>
                         </div>
                     </div>
 
                     <div className="content">
-                        Desenvolvo aplicativos Web para acesso à imagens e laudos por médicos e pacientes.
+                        Desenvolvia aplicativos Web para acesso à imagens e laudos por médicos e pacientes.
                         <br />
                         <br />
-                        <time><em>Abril 2018 - Atual</em></time>
+                        <time><em>Abril 2018 - Dezembro 2021</em></time>
                     </div>
                 </div>
             </div>

@@ -3,4 +3,4 @@
 
 Meu portfólio, desenvolvido por mim em React.js com a biblioteca Bulma.io.
 
-https://daidotm.github.io/
+Atualmente não publicado, estou reformulando.
